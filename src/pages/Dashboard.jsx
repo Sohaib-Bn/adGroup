@@ -38,10 +38,10 @@ function Dashboard() {
       </div>
 
       <div className="z-10 relative h-screen flex flex-col">
-        <header className="relative flex items-center justify-center px-3 py-[3rem] 2xl:py-[3.9rem]">
+        <header className="relative flex items-center justify-center px-4 py-[3rem] 2xl:py-[3.9rem]">
           <Link to="/">
             <img
-              className="h-[5rem] 2xl:h-[5.8rem]"
+              className="h-[6rem] 2xl:h-[5.8rem]"
               src="/logo.png"
               alt="logo"
             />
@@ -58,8 +58,8 @@ function Dashboard() {
         </main>
         <footer className="flex items-center justify-center px-3 p-[3rem]">
           <div className="border-b-8 border-colorBrand leading-[1]">
-            <h1 className="uppercase font-bold 2xl:text-[4.8rem] text-[4.3rem] text-colorGreyText">
-              system
+            <h1 className="uppercase font-bold 2xl:text-[4.8rem] text-[3.5rem] text-colorGreyText">
+              companies
             </h1>
           </div>
         </footer>
